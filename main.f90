@@ -25,6 +25,9 @@ program cbos
             write(*, '(A)') "C-Bos Fortran 1.0.0"
             write(*, '(A)') "Written by Thepuppetqueen57"
             write(*, '(A)') "https://github.com/Thepuppetqueen57"
+            write(*, '(A)') "This is not an official Puppet Studios project."
+            write(*, '(A)') "I am the creator of The Puppet Studios but this is not part of The Puppet Studios"
+            write(*, '(A)') "You can the official C-Bos project here: https://github.com/The-Puppet-Studios/C-Bos"
         else if (cmd == "magic8ball") then
             write(*, '(A)', ADVANCE='NO') "What is your question: "
             read(*,*) question
